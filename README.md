@@ -38,7 +38,7 @@ cookiecutter ./pypackage-template
     "author_name":  # author name in setup.py and LICENSE
     "author_email": # author email in setup.py
     "project_name": # uncleaned project name, might contain space or dash
-    "project_slug": # automatically replace space or dash in 'project_name' by underscore
+    "project_slug": # please skip, by default automatically replace space or dash in 'project_name' by underscore
     "version":      # version in setup.py
     "open_source_license": # license options that predefined under ~/pypackage_template/{{cookiecutter.project_slug}}/LICENSE
 }
