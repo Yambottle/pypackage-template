@@ -11,7 +11,7 @@ This is a customized Cookiecutter python project template that you can generate 
 ---
 
 ## Generate a python project
-**from github**
+**refer template from github**
 ```
 pip install cookiecutter
 cd ~/Projects
@@ -19,10 +19,14 @@ cookiecutter git@github.com:Yambottle/pypackage-template.git
 # set value to each variable, or skip to use default value
 # a python project will be generated at ~/Project/project_name/
 
-# cookiecutter will clone this specified template repo to your user directory's ~/.cookiecutters
+# if you have already created your project on github and cloned to your local ~/Project/project_name/,
+# run this instead:
+cookiecutter git@github.com:Yambottle/pypackage-template.git -f -s
+
+# cookiecutter will cache/clone this specified template repo to your user directory's ~/.cookiecutters
 ```
 
-**from local**
+**refer template from local**
 ```
 pip install cookiecutter
 cd ~/Projects
@@ -30,6 +34,10 @@ cd ~/Projects
 cookiecutter ./pypackage-template
 # set value to each variable, or skip to use default value
 # a python project will be generated at ~/Project/project_name/
+
+# if you have already created your project on github and cloned to your local ~/Project/project_name/,
+# run this instead:
+cookiecutter git@github.com:Yambottle/pypackage-template.git -f -s
 ```
 
 **context of cookiecutter.json**
