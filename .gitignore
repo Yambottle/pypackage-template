@@ -130,4 +130,6 @@ dmypy.json
 
 .vscode
 .idea
-test
+test/.blackbox/pubring.gpg~
+/.blackbox/pubring.kbx~
+/.blackbox/secring.gpg
